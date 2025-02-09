@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blooming Flowers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">Blooming Flowers</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Blooming Flowers</h1>
+      <p>Your perfect destination for fresh and beautiful flowers.</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Rose Bouquet">
+        <h3>Rose Bouquet</h3>
+        <p>$25.00</p>
+        <button onclick="addToCart('Rose Bouquet')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Tulip Bouquet">
+        <h3>Tulip Bouquet</h3>
+        <p>$20.00</p>
+        <button onclick="addToCart('Tulip Bouquet')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Sunflower Bouquet">
+        <h3>Sunflower Bouquet</h3>
+        <p>$30.00</p>
+        <button onclick="addToCart('Sunflower Bouquet')">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>&copy; 2023 Blooming Flowers. All rights reserved.</p>
+    <p>Contact us: info@bloomingflowers.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

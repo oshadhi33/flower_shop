@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .hero-content .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Products Section */
+  .products {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .products h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    font-size: 18px;
+    color: #4CAF50;
+  }
+  
+  .product-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
